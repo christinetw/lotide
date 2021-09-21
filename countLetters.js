@@ -17,4 +17,6 @@ const increaseCount = function(array, key) {
     array[key]++;
   }
 };
-console.log(countLetters('LHLLL'));
+//console.log(countLetters('LHLLL'));
+
+module.exports = countLetters;
